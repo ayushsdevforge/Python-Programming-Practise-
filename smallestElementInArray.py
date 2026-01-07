@@ -1,8 +1,9 @@
-arr = [4, 7, 1, 9, 3]
+arr = [3,4,5,11,1,2]
+
 smallest = arr[0]
 
-for i in range(1, len(arr)):
-    if arr[i] < smallest:
-        smallest = arr[i]
-
-print(smallest)
+for i in arr: 
+    if i < smallest:
+        smallest = i
+        print(smallest)
+print("Smallest element is:", smallest)
